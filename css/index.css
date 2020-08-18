@@ -391,4 +391,56 @@
 
 /* end */
 
+.btn-w {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #3542be;
+	border: .05rem solid #5755d9;
+	border-radius: .1rem;
+	color:aliceblue;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+	height: 2rem;
+	line-height: 1.2rem;
+	outline: 0;
+	padding: .25rem .4rem;
+	text-align: center;
+	text-decoration: none;
+	transition: background .2s, border .2s, box-shadow .2s, color .2s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap
+}
 
+/* button  #def*/
+.def{
+	color: aliceblue;
+	display: inline-block;
+	font-size: 1rem;
+	letter-spacing: 4px;
+	margin: .1rem .2rem;
+	padding: .25rem .4rem;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	/* text-transform: uppercase; */
+	transition: 0.5s;
+   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+   /* left: 12rem; */
+   
+  
+}
+
+
+.def:hover{
+	background: aliceblue;
+	box-shadow: 0 0 5px aliceblue, 0 0 25pxaliceblue, 0 0 50px aliceblue, 0 0 200px aliceblue;
+	color: #5755d9;
+}
+
+/* end */
