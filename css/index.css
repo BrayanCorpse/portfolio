@@ -333,6 +333,7 @@
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 5s linear infinite;
+  margin: 11.5%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -476,6 +477,6 @@
 
 .flip-card-back {
   background-color: #3542be;
-  color: white;
+  color: #FFFFFF;
   transform: rotateX(180deg);
 }
