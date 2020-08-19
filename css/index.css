@@ -1,6 +1,6 @@
-*{
+/* *{
   border: solid 1px #3542be;
-}
+} */
 .swal-overlay {
     background-color: rgba(165, 43, 110, 0.45);
   }
@@ -508,3 +508,4 @@
     object-position: center center;
   }
 }
+
