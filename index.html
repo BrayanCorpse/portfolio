@@ -23,6 +23,15 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
 
+    <div class="uk-flex uk-flex-center uk-margin-large-top">
+        
+        <div class="uk-width-2xlarge">
+
+            <i class="fa fa-bars fa-3x uk-margin-large-bottom" type="button" uk-toggle="target: #offcanvas-slide"></i>
+            
+        </div>
+    </div>
+
 
     <div id="offcanvas-slide" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
@@ -35,15 +44,15 @@
                 <br>
                 <a href="/" class="start uk-link-heading">Home</a>
                 <br>
-                <a href="/" class="start uk-link-heading">About</a>
+                <a href="#About" class="start uk-link-heading">About</a>
                 <br>
-                <a href="/" class="start uk-link-heading">Github</a>
+                <a href="https://github.com/BrayanCorpse" class="start uk-link-heading" target="_blank" rel="noopener noreferrer">Github</a>
                 <br>
-                <a href="/" class="start uk-link-heading">Services</a>
+                <a href="#Services" class="start uk-link-heading">Services</a>
                 <br>
-                <a href="/" class="start uk-link-heading">Projects</a>
+                <a href="#Projects" class="start uk-link-heading">Projects</a>
                 <br>
-                <a href="/" class="start uk-link-heading">Contact</a>
+                <a href="#Contact" class="start uk-link-heading">Contact</a>
                 
                 
             </section>
@@ -51,23 +60,12 @@
         </div>
     </div>
 
-    <div class="uk-flex uk-flex-center uk-margin-large-top">
-        
-        <div class="uk-width-2xlarge">
-
-            <i class="fa fa-bars fa-3x uk-margin-large-bottom" type="button" uk-toggle="target: #offcanvas-slide"></i>
-            
-        </div>
-    </div>
-    
-
-
-    <div class="uk-flex uk-flex-center ">
+    <div class="uk-flex uk-flex-center">
         
         <div class="uk-width-2xlarge uk-animation-toggle">
 
             <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-animation-fade" data-src="img/dev.svg" uk-img>
-                <h1>Brayan <img src="img/audaz.svg" alt="Brayan Manzano"> Manzano
+                <h1>Brayan <img src="img/audaz.svg" alt="Brayan Manzano" uk-img> Manzano
                     <br>
                         <p class="uk-text-center"> Web Developer </p> 
                 </h1>
@@ -76,25 +74,25 @@
         </div>
     </div>
 
-    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-        <div class="uk-card uk-card-body uk-margin-medium-left">
-            <img class="uk-border-rounded" src="img/yo.jpg" alt="" width="300" height="300">
+    <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center" uk-grid>
+        <div class="uk-flex-first">
+            <div class="uk-card uk-card-body">
+                <img src="img/yo.jpg" alt="Brayan Manzano" title="Brayan Manzano" id="About">
+            </div>
         </div>
-        <div class="uk-card uk-card-body">
-            <h3 class="uk-h3 desc uk-width-medium uk-text-center">I'm  an ICT Engineer, Frontend & Backend Developer,  passionate about technology.
-                <br>
-                <br>    
-                <a class="def-v" href="assets/CV-Manzano-Cortes-Brayan.pdf" download="CV-Manzano-Cortes-Brayan">
-                    <img src="img/cv.svg" alt="Brayan Manzano" height="100" width="100">
+        <div>
+            <div class="uk-card uk-card-body uk-margin-large-top">
+                <h3 class="uk-h3">I'm Brayan Manzano ICT Engineer, Frontend & Backend Developer, passionate about technology.</h3>
+                <a class="def-v" href="assets/CV-Manzano-Cortes-Brayan.pdf" download="">
+                    <img src="img/cv.svg" alt="Brayan Manzano" width="100" height="100" title="Brayan Manzano">
                 </a>
-            </h3>
-            
-        </div>   
+            </div>
+        </div>
     </div>
 
     <div class="uk-flex uk-flex-center uk-margin-large-top uk-flex-column">
         <div class="uk-margin-bottom">
-            <h2 class="uk-h2 uk-text-center">My Skills</h2>
+            <h2 class="uk-h2 uk-text-center" id="Services">My Skills</h2>
         </div>
         <div class="uk-text-center">
             <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
@@ -176,26 +174,21 @@
             <h2 class="uk-h2 uk-text-center uk-text-capitalize">Services offers</h2>
         </div>
         <div class="uk-align-center">
-            <button class="btn-w def uk-margin-small-right">Web</button>
-            <div uk-drop="animation: uk-animation-slide-top-small; duration: 1000">
-                <div class="uk-card uk-card-header uk-card-default uk-text-baseline">Building, creation, design, maintenance & publishing websites.</div>
-            </div>
-            <button class="btn-w def uk-margin-small-right">UX/UI</button>
-            <div uk-drop="animation: uk-animat-slide-top-small; duration: 1000">
-                <div class="uk-card uk-card-header uk-card-default uk-text-baseline">User interaction and experience with a product or service.</div>
-            </div>
-            <button class="btn-w def">DBA</button>
-            <div uk-drop="animation: uk-animation-slide-top-small; duration: 1000">
-                <div class="uk-card uk-card-header uk-card-default uk-text-baseline">Configuration, design, migration, monitoring, security, troubleshooting, as well as backup and data recovery.</div>
-            </div>
+       
+            <button class="btn-w def uk-margin-small-right" uk-tooltip="Building, creation, design, maintenance & publishing websites.">Web</button>
+
+            <button class="btn-w def uk-margin-small-right" uk-tooltip="Building, creation, design, maintenance & publishing websites.">UX/UI</button>
+
+            <button class="btn-w def uk-margin-small-right" uk-tooltip="Configuration, design, migration, monitoring, security, troubleshooting, as well as backup and data recovery.">DBA</button>
+           
         </div>
     </div>
 
     <div class="uk-margin-large-top">
-        <h2 class="uk-h2 uk-text-center uk-text-capitalize">Recently Done Projects</h2>
+        <h2 class="uk-h2 uk-text-center uk-text-capitalize uk-margin-large-bottom" id="Projects">Recently Done Projects</h2>
     </div>
 
-    <div class="uk-flex-center uk-text-center" uk-grid>
+    <div class="uk-grid-large  uk-flex-center uk-text-center" uk-grid>
         <div class="flip-card">
             <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -378,6 +371,37 @@
         </div>
     </div>
 
+    <div class="uk-height-medium uk-background-cover uk-light uk-flex uk-flex-top uk-margin-large-top footer" style="background: #3542be;">
+
+            <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 0,1; y: 100,0; viewport: 0.5">
+
+                <h2 class="uk-h2" id="Contact">Follow Me</h2>
+
+                <a class="uk-link-text" href="#">
+                    <span class="link twitter" uk-icon="icon: twitter; ratio: 2"></span>
+                </a>
+        
+                <a class="uk-link-text" href="#">
+                    <span class="link instagram" uk-icon="icon: instagram; ratio: 2"></span>
+                </a>
+        
+                <a class="uk-link-text" href="#">
+                    <span class="link github" uk-icon="icon: github; ratio: 2"></span>
+                </a>
+        
+                <a class="uk-link-text" href="#">
+                    <span class="link linkedin" uk-icon="icon: linkedin; ratio: 2"></span>
+                </a>
+
+                <a class="uk-link-text" href="#">
+                    <span class="link mail" uk-icon="icon: mail; ratio: 2"></span>
+                </a>
+
+                <h4 class="uk-h4 uk-text-capitalize">Developed with <i class="fa fa-heartbeat" aria-hidden="true"></i> by Brayan Manzano. © 2020 </h4>
+
+            </div>
+    </div>   
+    
     
     
     <script src="js/index.js"></script>
