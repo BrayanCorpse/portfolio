@@ -1,48 +1,6 @@
 *{
   border: solid 1px transparent;
 } 
-.swal-overlay {
-    background-color: rgba(165, 43, 110, 0.45);
-  }
-
-.swal-button {
-    background-color: #1C4EE2;
-}
-
-.swal-button:active {
-    background-color: rgb(52, 79, 161);
-}
-
-.swal-button--danger{
-    background-color: #e64942;
-}
-
-
-/* Profile */
-.container {
-    text-align: center;
-    position: absolute;
-    margin: 10px;
-  }
-
-  /* Back */
-  .back{
-    height: 500px;
-  }
-
-  .share{
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
-    font-size: 1.5rem;
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-
-  }
-
 
 .btn-expand {
     position: relative;
@@ -167,15 +125,15 @@
 
   .linkedin:hover{
     background: #0072b1 ;
-    box-shadow: 0 0 5px #0072b1 , 0 0 50px #0072b1 , 0 0 50px #0072b1 , 0 0 200px #0072b1 ;
+    box-shadow: 0 0 5px #FFF , 0 0 50px #0072b1 , 0 0 50px #0072b1 , 0 0 200px #FFF ;
     color:white;
     border-radius: 10%;
   }
 
   .mail:hover{
-    background: #4652c5 ;
-    box-shadow: 0 0 5px #3542be , 0 0 50px #3542be , 0 0 50px #3542be , 0 0 200px #3542be;
-    color:white;
+    background: #FFF ;
+    box-shadow: 0 0 5px #FFF , 0 0 50px #0072b1 , 0 0 50px #0072b1 , 0 0 200px #FFF;
+    color:#9c9df0;
     border-radius: 10%;
   }
 
@@ -256,44 +214,6 @@
 	box-shadow: 0 0 5px #3542be, 0 0 25px#3542be, 0 0 50px #3542be, 0 0 200px #3542be;
 	color: aliceblue;
 }
-
-/* button start */
-
-
-/* .desc {
-  text-transform: capitalize;
-  text-align: justify;
-  letter-spacing: normal;
-  overflow: hidden;
-  background: linear-gradient(90deg, #3542be, #a9aee4, #ffffff);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 5s linear none;
-  margin: 15%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
-
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
-
-.desc:hover{
-  text-transform: capitalize;
-  cursor: default;
-  overflow: hidden;
-  background: linear-gradient(90deg, #FFFFFF, #ffffff, #FFFFFF);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  animation: none;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}  */
 
 /* button  #def-v*/
 .def-v{
