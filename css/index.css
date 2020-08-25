@@ -2,6 +2,7 @@
   border: solid 1px transparent;
 } 
 
+
 .btn-expand {
     position: relative;
     overflow: hidden;
@@ -148,6 +149,10 @@
 
   .company a {
     color: white;
+  }
+
+  .fa-bars {
+    color: rgb(252, 248, 248);
   }
 
   .fa-bars:hover{
