@@ -152,14 +152,14 @@
   }
 
   .fa-bars {
-    color: rgb(252, 248, 248);
+    color: #3543bea8;
   }
 
   
 
   .fa-bars:hover{
 
-    color:#3542be;
+    color:#FFF;
     cursor: pointer;
 
   }
@@ -299,7 +299,7 @@
   
 }
 
-a .def {
+.def {
   -webkit-box-reflect: unset;
 }
 
@@ -389,12 +389,5 @@ a .def {
   0% { transform: scale(1.5) }     /* Mismo tamaño */
   75% { transform: scale(2) }  /* Aumenta */
   100% { transform: scale(1.5) }   /* Tamaño inicial */
-}
-
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-top: 10px;
 }
 
