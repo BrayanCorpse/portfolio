@@ -24,23 +24,36 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
 
-    
     <div class="uk-flex uk-flex-center" uk-sticky>  
         <div class="uk-width-2xlarge">
-            <i class="fa fa-bars fa-3x" uk-toggle="target: #offcanvas-slide"></i>
-            <div class="uk-align-right uk-margin-small-top">
-                <a href="mailto:manzanocortesbrayan@gmail.com"><button class="btn-w def">Contact</button></a>
-                <a href="https://github.com/BrayanCorpse" target="_blank" rel="noopener noreferrer"><button class="btn-w def">Github</button></a>
-            </div>    
-        </div>     
+            <div uk-sticky="media: 960" class=" tm-navbar-container uk-sticky">
+                <div class="uk-container uk-container-expand">
+                    <nav class="uk-navbar">
+                        <div class="uk-navbar-left">
+                            <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon">
+                                <svg width="40" height="40" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <ul class="uk-navbar-nav uk-visible@m">
+                                <li>
+                                    <a class="uk-text-bold" href="mailto:manzanocortesbrayan@gmail.com">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="github" href="https://github.com/BrayanCorpse" target="_blank" rel="noopener noreferrer">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
-
     
-    <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+    <div id="offcanvas" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
     
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
-
             <section>
 
                 <a href="#"><img src="img/aud.svg" alt=""></a><h3 class="uk-inline-clip line anim-typewriter">rayan Manzano</h3> 
@@ -49,6 +62,8 @@
                 <br>
                 <a href="#About" class="start uk-link-heading">About</a>
                 <br>
+                <a href="https://github.com/BrayanCorpse" class="start uk-link-heading" target="_blank" rel="noopener noreferrer">Github</a>
+                <br>
                 <a href="#Services" class="start uk-link-heading">Services</a>
                 <br>
                 <a href="#Projects" class="start uk-link-heading">Projects</a>
@@ -56,12 +71,13 @@
                 <a href="#Contact" class="start uk-link-heading">Contact</a>
                 
                 
+                
             </section>
                 
         </div>
     </div>
 
-    <div class="uk-flex uk-flex-center uk-margin-large-top">
+    <div class="uk-flex uk-flex-center uk-margin-small-top">
         
         <div class="uk-width-2xlarge uk-animation-toggle">
 
@@ -75,100 +91,109 @@
         </div>
     </div>
 
-    <div class="uk-grid-small uk-child-width-1-3@s uk-flex-center uk-text-center uk-margin-large-top" uk-grid>
-        <div class="uk-flex-first">
-            <div class="uk-card uk-card-body">
-                <img class="uk-border-rounded" src="img/yo.jpg" alt="Brayan Manzano" title="Brayan Manzano">
+    <div class="uk-flex uk-flex-center uk-margin-large-top">
+        <div class="uk-width-2xlarge">
+
+            <div class="uk-grid-small uk-child-width-1-2@s uk-flex-center uk-text-center uk-margin-large-top" uk-grid>
+                <div class="uk-flex-first">
+                    <div class="uk-card uk-card-body">
+                        <img class="uk-border-rounded" src="img/yo.jpg" alt="Brayan Manzano" title="Brayan Manzano">
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body" id="About">
+                        <h3 class="uk-h3 uk-text-justify">I'm Brayan Manzano ICT Engineer, Frontend & Backend Developer, passionate about technology. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate amet molestiae quibusdam tenetur explicabo repellat vero, ut delectus est fugiat consectetur sunt cum vel possimus nulla ipsum iste. Modi!</h3>
+                        <a class="def-v" href="assets/CV-Manzano-Cortes-Brayan.pdf" download="">
+                            <img src="img/cv.svg" alt="Brayan Manzano" width="100" height="100" title="Brayan Manzano">
+                        </a>
+                    </div>
+                </div>
             </div>
+
         </div>
-        <div>
-            <div class="uk-card uk-card-body" id="About">
-                <h3 class="uk-h3">I'm Brayan Manzano ICT Engineer, Frontend & Backend Developer, passionate about technology.</h3>
-                <a class="def-v" href="assets/CV-Manzano-Cortes-Brayan.pdf" download="">
-                    <img src="img/cv.svg" alt="Brayan Manzano" width="100" height="100" title="Brayan Manzano">
+    </div>
+
+    
+    <div class="uk-flex uk-flex-center uk-margin-large-top">
+        <div class="uk-width-2xlarge">
+
+            <div class="uk-margin-bottom">
+                <h2 class="uk-h2 uk-text-center" id="Services">My Skills</h2>
+            </div>
+            
+            <div class="uk-text-center uk-margin-medium-top">
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/html.svg" alt="html" width="50" uk-tooltip="title: Html; pos: top">
+                </a>
+                <a href="https://desarrolloweb.com/home/css" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/Css.svg" alt="css" width="50" uk-tooltip="title: Css; pos: top">
+                </a>
+                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/js.svg" alt="javascript" width="50" uk-tooltip="title: JavaScript; pos: top">
+                </a>
+                <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/php.svg" alt="php" width="50" uk-tooltip="title: PHP; pos: top">
+                </a>
+                <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/python-5.svg" alt="python" width="50" uk-tooltip="title: Python; pos: top">
+                </a>
+                <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/Mysql.svg" alt="mysql" width="50" uk-tooltip="title: MySQL; pos: top">
+                </a>
+                <a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/sqlite.png" alt="sqlite" width="50" uk-tooltip="title: SQLite; pos: top">
+                </a>
+                <a href="https://openwebinars.net/blog/que-es-sql-server/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/microsoft-sql-server.svg" alt="sql-server" width="50" uk-tooltip="title: SQL Server; pos: top">
+                </a>
+                <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/laravel.svg" alt="laravel" width="50" uk-tooltip="title: Laravel; pos: top">
+                </a>
+                <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/react.png" alt="react.js" width="50" uk-tooltip="title: React.Js; pos: top">
+                </a>
+                <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/django.svg" alt="django" width="40" uk-tooltip="title: Django; pos: top">
+                </a>
+            </div>
+            <div class="uk-text-center uk-margin-large-top">
+                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/jquery.svg" alt="jQuery" width="50" uk-tooltip="title: jQuery; pos: bottom">
+                </a>
+                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/bootstrap.svg" alt="bootstrap" width="50" uk-tooltip="title: Bootstrap; pos: bottom">
+                </a>
+                <a href="https://get.foundation/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/foundation.svg" alt="foundation" width="35" uk-tooltip="title: Foundation; pos: bottom">
+                </a>
+                <a href="https://picturepan2.github.io/spectre/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/spectre-logo.svg" alt="spectre" width="50" uk-tooltip="title: Spectre; pos: bottom">
+                </a>
+                <a href="https://getuikit.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/uikit.svg" alt="uikit" width="45" uk-tooltip="title: Uikit; pos: bottom">
+                </a>
+                <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/git-icon.svg" alt="git" width="50" uk-tooltip="title: Git; pos: bottom">
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/github-1.svg" alt="github" width="50" uk-tooltip="title: Github; pos: bottom">
+                </a>
+                <a href="https://firebase.google.com/?hl=es-419" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/firebase.png" alt="firebase" width="40" uk-tooltip="title: Firebase; pos: bottom">
+                </a>
+                <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/figma.svg" alt="git" width="35" uk-tooltip="title: Figma; pos: bottom">
+                </a>
+                <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
+                    <img class="svg" src="img/balsamiq.png" alt="balsamiq" width="50" uk-tooltip="title: Balsamiq; pos: bottom">
+                </a>
+                <a href="https://www.arduino.cc/en/Main/AboutUs" target="_blank" rel="noopener noreferrer" class="uk-link-heading">
+                    <img class="svg" src="img/arduino.svg" alt="arduino" width="60" uk-tooltip="title: Arduino; pos: bottom">
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="uk-flex uk-flex-center uk-margin-xlarge-top uk-flex-column">
-        <div class="uk-margin-bottom">
-            <h2 class="uk-h2 uk-text-center" id="Services">My Skills</h2>
-        </div>
-        <div class="uk-text-center uk-margin-medium-top">
-            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/html.svg" alt="html" width="50" uk-tooltip="title: Html; pos: top">
-            </a>
-            <a href="https://desarrolloweb.com/home/css" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/Css.svg" alt="css" width="50" uk-tooltip="title: Css; pos: top">
-            </a>
-            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/js.svg" alt="javascript" width="50" uk-tooltip="title: JavaScript; pos: top">
-            </a>
-            <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/php.svg" alt="php" width="50" uk-tooltip="title: PHP; pos: top">
-            </a>
-            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/python-5.svg" alt="python" width="50" uk-tooltip="title: Python; pos: top">
-            </a>
-            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/Mysql.svg" alt="mysql" width="50" uk-tooltip="title: MySQL; pos: top">
-            </a>
-            <a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/sqlite.svg" alt="sqlite" width="100" uk-tooltip="title: SQLite; pos: top">
-            </a>
-            <a href="https://openwebinars.net/blog/que-es-sql-server/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/microsoft-sql-server.svg" alt="sql-server" width="50" uk-tooltip="title: SQL Server; pos: top">
-            </a>
-            <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/laravel.svg" alt="laravel" width="50" uk-tooltip="title: Laravel; pos: top">
-            </a>
-            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/react.png" alt="react.js" width="50" uk-tooltip="title: React.Js; pos: top">
-            </a>
-            <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/django.svg" alt="django" width="40" uk-tooltip="title: Django; pos: top">
-            </a>
-        </div>
-        <div class="uk-text-center uk-margin-large-top">
-            <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/jquery.svg" alt="jQuery" width="50" uk-tooltip="title: jQuery; pos: bottom">
-            </a>
-            <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/bootstrap.svg" alt="bootstrap" width="50" uk-tooltip="title: Bootstrap; pos: bottom">
-            </a>
-            <a href="https://get.foundation/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/foundation.svg" alt="foundation" width="35" uk-tooltip="title: Foundation; pos: bottom">
-            </a>
-            <a href="https://picturepan2.github.io/spectre/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/spectre-logo.svg" alt="spectre" width="50" uk-tooltip="title: Spectre; pos: bottom">
-            </a>
-            <a href="https://getuikit.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/uikit.svg" alt="uikit" width="45" uk-tooltip="title: Uikit; pos: bottom">
-            </a>
-            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/git-icon.svg" alt="git" width="50" uk-tooltip="title: Git; pos: bottom">
-            </a>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/github-1.svg" alt="github" width="50" uk-tooltip="title: Github; pos: bottom">
-            </a>
-            <a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/gitlab.svg" alt="gitlab" width="50" uk-tooltip="title: Gitlab; pos: bottom">
-            </a>
-            <a href="https://firebase.google.com/?hl=es-419" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/firebase.png" alt="firebase" width="40" uk-tooltip="title: Firebase; pos: bottom">
-            </a>
-            <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/figma.svg" alt="git" width="35" uk-tooltip="title: Figma; pos: bottom">
-            </a>
-            <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                <img src="img/balsamiq.png" alt="balsamiq" width="50" uk-tooltip="title: Balsamiq; pos: bottom">
-            </a>
-            <a href="https://www.arduino.cc/en/Main/AboutUs" target="_blank" rel="noopener noreferrer" class="uk-link-heading">
-                <img src="img/arduino.svg" alt="arduino" width="60" uk-tooltip="title: Arduino; pos: bottom">
-            </a>
-        </div>
-    </div>
 
     <div class="uk-flex uk-flex-center uk-margin-large-top uk-flex-column">
         <div>
@@ -185,158 +210,177 @@
         </div>
     </div>
 
-    <div class="uk-margin-medium-top">
-        <h2 class="uk-h2 uk-text-center uk-text-capitalize uk-margin-large-bottom" id="Projects">Recently Done Projects</h2>
+    <div class="uk-flex uk-flex-center uk-margin-large-top">
+        <div class="uk-width-2xlarge">
+
+            <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-4@s uk-text-center" uk-grid>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/qr.webp" width="300" height="300" alt="QR Attendance">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">QR Attendance</h3>
+                            <p>
+                                <a href="https://github.com/Hospitalxona/Asistencia" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://bydsolutions.com/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/vit1.webp" alt="Avatar" width="200" height="200" alt="Vitalicia">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">Vitalicia</h3>
+                            <p>
+                                <a href="https://github.com/vitalicia2/proyecto2" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://brayanmanzano.site/vital/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/seguros.png" alt="toluca insurance" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">toluca insurance</h3>
+                            <p>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://www.segurostoluca.com.mx/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/gato.png" alt="tic-tac-toe" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">tic-tac-toe</h3>
+                            <p>
+                                <a href="https://github.com/BrayanCorpse/tic-tac-toe" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://brayancorpse.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/cal.png" alt="calculator" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">calculator</h3>
+                            <p>
+                                <a href="https://github.com/BrayanCorpse/calculadora-jQuery" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://brayancorpse.github.io/calculadora-jQuery/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/portfolio.png" alt="Portfolio" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">Portfolio</h3>
+                            <p>
+                                <a href="https://github.com/BrayanCorpse/portfolio" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://brayancorpse.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/react-app.png" alt="react api crud" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">react api crud</h3>
+                            <p>
+                                <a href="https://github.com/BrayanCorpse/react-app" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://apicrud-5a75a.web.app/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="projects" src="img/radio.png" alt="radio creep" width="200" height="200">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">radio creep</h3>
+                            <p>
+                                <a href="https://github.com/BrayanCorpse/Radio-Rock" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://brayancorpse.github.io/Radio-Rock/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
+                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="uk-grid-large  uk-flex-center uk-text-center" uk-grid>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/qr.webp" width="200" height="200" alt="QR Attendance">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">QR Attendance</h3>
-                <p>
-                    <a href="https://github.com/Hospitalxona/Asistencia" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://bydsolutions.com/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/vit1.webp" alt="Avatar" width="200" height="200" alt="Vitalicia">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">Vitalicia</h3>
-                <p>
-                    <a href="https://github.com/vitalicia2/proyecto2" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://brayanmanzano.site/vital/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/seguros.png" alt="toluca insurance" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">toluca insurance</h3>
-                <p>
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="http://www.segurostoluca.com.mx/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/gato.png" alt="tic-tac-toe" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">tic-tac-toe</h3>
-                <p>
-                    <a href="https://github.com/BrayanCorpse/tic-tac-toe" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://brayancorpse.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/cal.png" alt="calculator" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">calculator</h3>
-                <p>
-                    <a href="https://github.com/BrayanCorpse/calculadora-jQuery" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://brayancorpse.github.io/calculadora-jQuery/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/portfolio.png" alt="Portfolio" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">Portfolio</h3>
-                <p>
-                    <a href="https://github.com/BrayanCorpse/portfolio" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://brayancorpse.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/react-app.png" alt="react api crud" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">react api crud</h3>
-                <p>
-                    <a href="https://github.com/BrayanCorpse/react-app" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://apicrud-5a75a.web.app/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img class="projects" src="img/radio.png" alt="radio creep" width="200" height="200">
-            </div>
-            <div class="flip-card-back">
-                <h3 class="uk-h3 uk-text-capitalize uk-margin-medium-top">radio creep</h3>
-                <p>
-                    <a href="https://github.com/BrayanCorpse/Radio-Rock" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://brayancorpse.github.io/Radio-Rock/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                        <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="uk-height-medium uk-background-cover uk-light uk-flex uk-flex-top uk-margin-large-top footer" style="background: #3542be;">
+    <div class="uk-height-medium uk-background-cover uk-light uk-flex uk-flex-top uk-margin-large-top" style="background: #3542be;">
 
             <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 0,1; y: 100,0; viewport: 0.5">
 
@@ -362,7 +406,7 @@
                     <span class="link mail" uk-icon="icon: mail; ratio: 2"></span>
                 </a>
 
-                <h4 class="uk-h4 uk-text-capitalize">Developed with <i class="fa fa-heartbeat" aria-hidden="true"></i> by Brayan Manzano. © 2020 </h4>
+                <h4 class="uk-h4 uk-text-capitalize">Developed with <i class="fa fa-heartbeat" aria-hidden="true"></i> by Brayan <br> Manzano. © 2020 </h4>
 
             </div>
     </div>   
