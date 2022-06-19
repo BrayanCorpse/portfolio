@@ -1,616 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-82X6D7FLZN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-82X6D7FLZN');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="📌 Hey there, I’m Brayan Manzano! First of all, thanks for visiting my personal website. I’m a Mexican ICT Engineer, Frontend & Backend Developer.">
-    <meta name="keywords" content="Brayan,Manzano,Web,Developer,HTML,CSS,JavaScript,Laravel, MySQL,PHP">
-    <meta name="author" content="Brayan Manzano">
-    <meta property="og:title" content="Brayan Manzano Web Developer">
-    <meta property="og:url" content="https://brayanmanzano.dev">
-    <link rel="canonical" href="https://brayanmanzano.dev">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://i.ibb.co/w413BTS/mstile-310x310.png">
-    <meta property="og:description" content="Brayan Manzano Web Developer.">
-    <title>Brayan Manzano</title>
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-    <!-- UIkit JS -->
-    <link rel="stylesheet" href="css/uikit.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
-    <!-- Stars -->
-    <link rel="stylesheet" href="css/stars.min.css">
-    <!-- Index css -->
-    <link rel="stylesheet" href="css/index.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
-    
-</head>
-<body>
+   <head>
+      <script src="https://www.googletagmanager.com/gtag/js?id=G-82X6D7FLZN" async=""></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-82X6D7FLZN")</script>
+      <meta charset="UTF-8">
+      <meta content="width=device-width,initial-scale=1" name="viewport">
+      <meta content="📌 Hey there, I’m Brayan Manzano! First of all, thanks for visiting my personal website. I’m a Mexican ICT Engineer, Frontend, Backend Developer." name="description">
+      <meta content="Brayan,Manzano,Web,Developer,HTML,CSS,JavaScript,Laravel, MySQL,PHP" name="keywords">
+      <meta content="Brayan Manzano" name="author">
+      <meta content="Brayan Manzano Web Developer" property="og:title">
+      <meta content="https://brayanmanzano.dev" property="og:url">
+      <link href="https://brayanmanzano.dev" rel="canonical">
+      <meta content="website" property="og:type">
+      <meta content="https://i.ibb.co/w413BTS/mstile-310x310.png" property="og:image">
+      <meta content="Brayan Manzano Web Developer." property="og:description">
+      <title>Brayan Manzano</title>
+      <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/tooplate-style.css">
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
+  </head>
+  <body>
 
-    <div class="uk-flex uk-flex-center" uk-sticky>  
-        <div class="uk-width-2xlarge">
-            <div uk-sticky="media: 960" class=" tm-navbar-container uk-sticky">
-                <div class="uk-container uk-container-expand">
-                    <nav class="uk-navbar">
-                        <div class="uk-navbar-center-left">
-                            <img src="img/audaz.svg" alt="Brayan Manzano">
-                        </div>
-                        <div class="uk-navbar-right">
-                            <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon">
-                                <svg width="40" height="40" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="uk-navbar-center">
-                            <ul class="uk-navbar-nav uk-visible@m">
-                                <li>
-                                    <a class="uk-text-bold" href="mailto:manzanocortesbrayan@gmail.com">Contact</a>
-                                </li>
-                                <li>
-                                    <a class="" href="https://github.com/BrayanCorpse" target="_blank" rel="noopener noreferrer">Github</a>
-                                </li>
-                                <li>
-                                    <a class="uk-text-light" href="assets/CV-Manzano-Cortes-Brayan.pdf" download="CV-Manzano-Cortes-Brayan">CV</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+             <img src="/images/audaz.svg" alt="Brayan Manzano" width="25" height="25"> Brayan Mc
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto b-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="mailto:manzanocortesbrayan@gmail.com" class="nav-link">
+                          <span data-hover="Contact">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto b-nav-color">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
             </div>
         </div>
-    </div>
-    
-    <div id="offcanvas" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar">
-    
-            <section>
+    </nav>
 
-                <a href="#"><img src="img/aud.svg" alt="Brayan Manzano"></a><h3 class="uk-inline-clip line anim-typewriter">rayan Manzano</h3> 
-                <br>
-                <a href="#About" class="start uk-link-heading">About</a>
-                <br>
-                <a href="https://github.com/BrayanCorpse" class="start uk-link-heading" target="_blank" rel="noopener noreferrer">Github</a>
-                <br>
-                <a href="#Services" class="start uk-link-heading">Services</a>
-                <br>
-                <a href="#Projects" class="start uk-link-heading">Projects</a>
-                <br>
-                <a href="#Contact" class="start uk-link-heading">Contact</a>
-                <br>
-                <a href="assets/CV-Manzano-Cortes-Brayan.pdf" class="pdf uk-link-heading" download="CV-Manzano-Cortes-Brayan">
-                    CV<img src="img/pdf.svg" alt="Brayan Manzano" width="30" height="30">
-                </a>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
                 
-                
-                
-            </section>
-                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">
+                          💻 First of all 
+                          <span class="mobile-block">
+                            thanks for visiting my personal website.
+                          </span>
+                        </small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">📌Hey there, I'm</span>
+                              <div class="animated-info">
+                                  <span class="animated-item">Brayan Manzano!</span>
+                                  <span class="animated-item">ICT Engineer</span>
+                                  <span class="animated-item">Web Developer</span>
+                              </div>
+                        </h1>
+
+                        <p>🤝 I enjoy sharing my knowledge and helping others when possible.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="assets/MY-CV.pdf" class="btn mr-lg-2 custom-btn" download="CV-Manzano-Cortes-Brayan">
+                            <i class='uil uil-file-alt'></i> Download Resume
+                          </a>
+                          <a href="https://github.com/BrayanCorpse" rel="noopener noreferrer" target="_blank" class="btn custom-btn custom-btn-bg custom-btn-link">
+                            Github
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="/images/undraw/developer.svg" class="img-fluid" alt="Developer">
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project" id="project">
+
+      <div class="b-container">
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two">
+        <div class="main-card">
+          <div class="cards">
+            <div class="card b-card-one" aria-label="ByD Solutions">
+            <div class="content">
+              <div class="details">
+                <div class="name">ByD Solutions</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://github.com/ByDsolutions-com" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bxl-github bx-sm'></i>
+                </a>
+                <a href="https://bydsolutions.com/" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+            <div class="card b-card-two" aria-label="Bisturí Noticias">
+            <div class="content">
+              <div class="details">
+                <div class="name">Bisturí Noticias</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://github.com/BrayanCorpse/Bisturi-Noticias" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bxl-github bx-sm'></i>
+                </a>
+                <a href="https://bisturinoticias.com/" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+            <div class="card b-card-three" aria-label="Consorcio Gadus">
+            <div class="content">
+              <div class="details">
+                <div class="name">Consorcio Gadus</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://consorciogadus.com/" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card b-card-four" aria-label="Radio Creep">
+            <div class="content">
+              <div class="details">
+                <div class="name">Radio Creep</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://github.com/BrayanCorpse/Radio-Rock" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bxl-github bx-sm'></i>
+                </a>
+                <a href="https://brayancorpse.github.io/Radio-Rock/" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+            <div class="card b-card-five" aria-label="P51">
+            <div class="content">
+              <div class="details">
+                <div class="name">P51</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://www.p51.mx/index.html" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+            <div class="card b-card-six" aria-label="Calculator Online">
+            <div class="content">
+              <div class="details">
+                <div class="name">Calculator</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://github.com/BrayanCorpse/calculadora-jQuery" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bxl-github bx-sm'></i>
+                </a>
+                <a href="https://brayancorpse.github.io/calculadora-jQuery/" rel="noopener noreferrer" target="_blank">
+                  <i class='bx bx-link bx-sm'></i>
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <label for="one" class=" active one"></label>
+          <label for="two" class="two"></label>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide circle-1">
+            <img src="/images/logos/html-5.svg" alt="html-5" width="75" height="75">
+        </div>
+        <div class="slide circle-2">
+          <img src="/images/logos/css-3.svg" alt="css-3" width="50" height="50">
+        </div>
+        <div class="slide circle-3">
+          <img src="/images/logos/javascript.svg" alt="javascript" width="60" height="60">
+        </div>
+        <div class="slide circle-4">
+          <img src="/images/logos/laravel.svg" alt="laravel" width="100" height="100">
+        </div>
+        <div class="slide circle-5">
+          <img src="/images/logos/mysql.svg" alt="mysql" width="50" height="50">
+        </div>
+        <div class="slide circle-6">
+          <img src="/images/logos/php.svg" alt="php" width="75" height="75">
+        </div>
+        <div class="slide circle-7">
+          <img src="/images/logos/microsoft-sql-server.svg" alt="sql server" width="50" height="50">
+        </div>
+        <div class="slide circle-8">
+          <img src="/images/logos/git.svg" alt="git" width="75" height="75">
+        </div>
+        <div class="slide circle-9">
+          <img src="/images/logos/github.svg" alt="github" width="50" height="50">
+        </div>
+        <div class="slide circle-10">
+          <img src="/images/logos/bootstrap.svg" alt="bootstrap" width="75" height="75">
+        </div>
+        <div class="slide circle-11">
+          <img src="/images/logos/jquery.svg" alt="jquery" width="35" height="35">
+        </div>
+        <div class="slide circle-12">
+          <img src="/images/logos/foundation.svg" alt="foundation" width="40" height="60">
+        </div>
+        <div class="slide circle-13">
+          <img src="/images/logos/uikit.svg" alt="uikit" width="75" height="75">
+        </div>
+        <div class="slide circle-14">
+          <img src="/images/logos/figma.svg" alt="figma" width="30" height="40">
+        </div>
+        <div class="slide circle-15">
+          <img src="/images/logos/balsamiq.png" alt="balsamiq" width="50" height="50">
+        </div>
+        <div class="slide circle-16">
+          <img src="/images/logos/arduino.svg" alt="arduino" width="75" height="50">
+        </div>
+      </div>
     </div>
 
-    <div class="uk-flex uk-flex-center uk-margin-medium-top">
-        
-        <div class="uk-width-2xlarge uk-animation-toggle">
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
 
-            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-animation-fade" data-src="img/dev.svg" uk-img>
-                <h1>Brayan <img src="img/audaz.svg" alt="Brayan Manzano"> Manzano
-                    <br>
-                        <p class="uk-text-center"> Web Developer </p> 
-                </h1>
-            </div>
-            
-        </div>
-    </div>
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
 
-    <div class="uk-flex uk-flex-center uk-margin-medium-top">
-        <div class="uk-width-2xlarge">
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3>
+                                    <span>Freelance Developer</span>
+                                    <small>Bisturí Noticias</small></h3>
+                                  <p>Website development for Bisturí News</p>
+                             </div>
+                        </div>
 
-            <div class="uk-grid-small uk-child-width-1-2@s uk-flex-center uk-text-center uk-margin-large-top" uk-grid>
-                <div class="uk-flex-first">
-                    <div class="uk-card uk-card-body">
-                        <img class="uk-border-rounded" src="img/yo.jpg" alt="Brayan Manzano">
+                        <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2021</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3>
+                                <span>Web Developer</span>
+                                <small>P51</small>
+                              </h3>
+                              <p>Websites building and maintenance</p>
+                          </div>
+                      </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                  <span>Web Developer</span>
+                                  <small>Xonacatlán health clinic</small>
+                                </h3>
+                                <p>
+                                  QR attendance system development and deployment
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div>
-                    <div class="uk-card uk-card-body" id="About">
-                        <h3 class="uk-h3">
-                            📌 Hey there, I’m Brayan Manzano! First of all, thanks for visiting my personal website.
-                        </h3>
-                        <h2 class="uk-h2">Who Am I?</h2>
-                        <h3 class="uk-h3">
-                            I’m a Mexican
-                            <img src="img/mexico.svg" width="30" height="30" alt="México">
-                            ICT Engineer, Frontend & Backend Developer, passionate about technology.
-                        </h3>
-                        <h3 class="uk-h3">
-                            🤝 I enjoy sharing my knowledge and helping others when possible.
-                        </h3>
-                     
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </div>
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
 
-    
-    <div class="uk-flex uk-flex-center uk-margin-large-top">
-        <div class="uk-width-2xlarge">
+                    <div class="timeline">
+                        <div class="timeline-wrapper timeline-b">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3>
+                                    <span>Web App Development</span>
+                                    <small>UTVT</small>
+                                  </h3>
+                             </div>
+                        </div>
 
-            <div class="uk-margin-bottom">
-                <h2 class="uk-h2 uk-text-center" id="Services">My Skills</h2>
-            </div>
-            
-            <div class="uk-text-center uk-margin-medium-top">
-                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/html.svg" alt="html" width="50" uk-tooltip="title: Html; pos: top">
-                </a>
-                <a href="https://desarrolloweb.com/home/css" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/Css.svg" alt="css" width="50" uk-tooltip="title: Css; pos: top">
-                </a>
-                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/js.svg" alt="javascript" width="50" uk-tooltip="title: JavaScript; pos: top">
-                </a>
-                <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/php.svg" alt="php" width="50" uk-tooltip="title: PHP; pos: top">
-                </a>
-                <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/python-5.svg" alt="python" width="50" uk-tooltip="title: Python; pos: top">
-                </a>
-                <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/Mysql.svg" alt="mysql" width="50" uk-tooltip="title: MySQL; pos: top">
-                </a>
-                <a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/sqlite.png" alt="sqlite" width="50" uk-tooltip="title: SQLite; pos: top">
-                </a>
-                <a href="https://openwebinars.net/blog/que-es-sql-server/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/microsoft-sql-server.svg" alt="sql-server" width="50" uk-tooltip="title: SQL Server; pos: top">
-                </a>
-                <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/laravel.svg" alt="laravel" width="50" uk-tooltip="title: Laravel; pos: top">
-                </a>
-                <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/react.png" alt="react.js" width="50" uk-tooltip="title: React.Js; pos: top">
-                </a>
-                <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/django.svg" alt="django" width="40" uk-tooltip="title: Django; pos: top">
-                </a>
-            </div>
-            <div class="uk-text-center uk-margin-large-top">
-                <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/jquery.svg" alt="jQuery" width="50" uk-tooltip="title: jQuery; pos: bottom">
-                </a>
-                <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/bootstrap.svg" alt="bootstrap" width="50" uk-tooltip="title: Bootstrap; pos: bottom">
-                </a>
-                <a href="https://get.foundation/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/foundation.svg" alt="foundation" width="35" uk-tooltip="title: Foundation; pos: bottom">
-                </a>
-                <a href="https://picturepan2.github.io/spectre/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/spectre-logo.svg" alt="spectre" width="50" uk-tooltip="title: Spectre; pos: bottom">
-                </a>
-                <a href="https://getuikit.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/uikit.svg" alt="uikit" width="45" uk-tooltip="title: Uikit; pos: bottom">
-                </a>
-                <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/git-icon.svg" alt="git" width="50" uk-tooltip="title: Git; pos: bottom">
-                </a>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/github-1.svg" alt="github" width="50" uk-tooltip="title: Github; pos: bottom">
-                </a>
-                <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/firebase.png" alt="firebase" width="40" uk-tooltip="title: Firebase; pos: bottom">
-                </a>
-                <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/figma.svg" alt="git" width="35" uk-tooltip="title: Figma; pos: bottom">
-                </a>
-                <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer" class="uk-margin-small-right uk-link-heading">
-                    <img class="svg" src="img/balsamiq.png" alt="balsamiq" width="50" uk-tooltip="title: Balsamiq; pos: bottom">
-                </a>
-                <a href="https://www.arduino.cc/en/Main/AboutUs" target="_blank" rel="noopener noreferrer" class="uk-link-heading">
-                    <img class="svg" src="img/arduino.svg" alt="arduino" width="60" uk-tooltip="title: Arduino; pos: bottom">
-                </a>
-            </div>
-        </div>
-    </div>
+                        <div class="timeline-wrapper  timeline-b">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                  <span>ICT Engineer</span>
+                                  <small>UTVT</small>
+                                </h3>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper  timeline-b">
+                            <div class="timeline-yr">
+                                <span>2018</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                  <span>ICT TSU</span>
+                                  <small>Computer Systems area - UTVT</small>
+                                </h3>
+                            </div>
+                        </div>
 
-
-    <div class="uk-flex uk-flex-center uk-margin-large-top uk-flex-column">
-        <div>
-            <h2 class="uk-h2 uk-text-center uk-text-capitalize">Services offers</h2>
-        </div>
-        <div class="uk-align-center uk-margin-medium-top">
-       
-            <button class="btn-w def uk-margin-small-right" uk-tooltip="Building, creation, design, maintenance & publishing websites.">WEB</button>
-
-            <button class="btn-w def uk-margin-small-right" uk-tooltip="Find relevant keywords with good search traffic potential, Create and optimize pages for search engines and users alike...">SEO</button>
-
-            <button class="btn-w def uk-margin-small-right" uk-tooltip="Configuration, design, migration, monitoring, security, troubleshooting, as well as backup and data recovery.">DBA</button>
-           
-        </div>
-    </div>
-
-    <div class="uk-flex uk-flex-center uk-margin-large-top">
-        <div class="uk-width-2xlarge">
-
-            <div class="uk-margin-medium-bottom">
-                <h2 class="uk-h2 uk-text-center" id="Services">Projects</h2>
-            </div>
-
-            <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-text-center" uk-grid>
-                <div class="uk-flex uk-flex-center" id="Projects">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/qr.webp" width="250" height="250" alt="QR Attendance">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">QR Attendance</h2>
-                            <p>
-                                <a href="https://github.com/Hospitalxona/Asistencia" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://bydsolutions.com/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/jquery.svg" alt="jQuery" width="25">
-                                <img class="svg" src="img/bootstrap.svg" alt="Bootstrap" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/vit1.webp" alt="Avatar" width="250" height="250" alt="Vitalicia">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">Vitalicia</h2>
-                            <p>
-                                <a href="https://github.com/vitalicia2/proyecto2" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayanmanzano.site/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/foundation.svg" alt="Foundation" width="20">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/greco.png" alt="greco" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">Greco</h2>
-                            <p>
-                                <a href="https://github.com/grecocomer/proygre" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayanmanzano.site/comercializadora" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/jquery.svg" alt="jQuery" width="25">
-                                <img class="svg" src="img/bootstrap.svg" alt="Bootstrap" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/love.png" alt="lovehotel" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">Love-hotel</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/Prueba-Sistemas" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://bydsolutions.com/lovehotel/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/uikit.svg" alt="Uikit" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/kinky.png" alt="kinky" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">Kinky</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/prueba-sistemas2" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://bydsolutions.com/prueba/public/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/uikit.svg" alt="Uikit" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/react-app.png" alt="react api crud" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">react api crud</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/react-app" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://apicrud-5a75a.web.app/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/react.png" alt="React.js" width="25">
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/uikit.svg" alt="Uikit" width="20">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/seguros.png" alt="toluca insurance" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">toluca insurance</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/seguros-toluca" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="http://www.segurostoluca.com/" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/laravel.svg" alt="Laravel" width="25">
-                                <img class="svg" src="img/Mysql.svg" alt="MySQL" width="25">
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/bootstrap.svg" alt="Bootstrap" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/radio.png" alt="radio creep" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">radio creep</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/Radio-Rock" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayancorpse.github.io/Radio-Rock/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/firebase.png" alt="Css" width="25">
-                                <img class="svg" src="img/uikit.svg" alt="Uikit" width="20">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/portfolio.png" alt="Portfolio" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">Portfolio</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/portfolio" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayancorpse.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/uikit.svg" alt="Uikit" width="20">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/gato.png" alt="tic-tac-toe" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">tic-tac-toe</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/tic-tac-toe" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayancorpse.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/js.svg" alt="JavaScript" width="25">
-                                <img class="svg" src="img/bootstrap.svg" alt="Bootstrap" width="25">
-                            </section>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-flex uk-flex-center">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img class="projects" src="img/cal.png" alt="calculator" width="250" height="250">
-                        </div>
-                        <div class="flip-card-back uk-animation-toggle">
-                            <h2 class="uk-h2 uk-text-capitalize uk-margin-medium-top">calculator</h2>
-                            <p>
-                                <a href="https://github.com/BrayanCorpse/calculadora-jQuery" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-github fa-2x i-right" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://brayancorpse.github.io/calculadora-jQuery/" target="_blank" rel="noopener noreferrer" class="uk-link-reset">
-                                    <i class="fa fa-external-link fa-2x i-left" aria-hidden="true"></i>
-                                </a>
-                            </p>
-                            <section class="tecnologies uk-animation-fade">
-                                <em class="uk-h4">Technologies</em>
-                                <br>
-                                <img class="svg" src="img/html.svg" alt="Html" width="25">
-                                <img class="svg" src="img/Css.svg" alt="Css" width="25">
-                                <img class="svg" src="img/jquery.svg" alt="jQuery" width="25">
-                                <img class="svg" src="img/bootstrap.svg" alt="Bootstrap" width="25">
-                            </section>
-                        </div>
-                        </div>
                     </div>
                 </div>
                 
             </div>
-
         </div>
-    </div>
+    </section>
 
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row justify-content-center">
 
-    <div class="uk-height-medium uk-background-cover uk-light uk-flex uk-flex-top uk-margin-large-top" style="background: #3542be;">
+                <ul class="wrapper">
+                    <li class="icon twitter">
+                        <span class="tooltip">Twitter</span>
+                        <a class="b-link" href="https://twitter.com/BrayanDevcode" rel="noopener noreferrer" target="_blank">
+                          <span>
+                              <i class='bx bxl-twitter bx-sm'></i>
+                          </span>
+                        </a>
+                        </span>
+                    </li>
+                 
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <a class="b-link" href="https://www.instagram.com/bryan.devcode/" rel="noopener noreferrer" target="_blank">
+                        <span>
+                          <i class='bx bxl-instagram bx-sm'></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="icon github">
+                      <span class="tooltip">Github</span>
+                      <a class="b-link" href="https://github.com/BrayanCorpse" rel="noopener noreferrer" target="_blank">
+                        <span>
+                          <i class='bx bxl-github bx-sm'></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="icon linkedin">
+                      <span class="tooltip">Linkedin</span>
+                      <a class="b-link" href="https://www.linkedin.com/in/brayan-manzano-54b309129/" rel="noopener noreferrer" target="_blank">
+                        <span>
+                          <i class='bx bxl-linkedin bx-sm'></i>
+                        </span>
+                      </a>
+                    </li>
+                </ul>
 
-            <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 0,1; y: 100,0; viewport: 0.5">
+                <div class="col-lg-10 col-10 mt-4">                                
+                    <p class="copyright-text text-center">
+                      Developed With <i class='bx bx-heart-circle'></i> By Brayan Manzano. © 2022
+                    </p>
+                </div>
+  
+               </div>
+          </div>
+     </footer>
 
-                <h2 class="uk-h2" id="Contact">Follow Me</h2>
-
-                <a class="uk-link-text" href="https://twitter.com/BrayanCorpsee" target="_blank" rel="noopener noreferrer">
-                    <span class="link twitter" uk-icon="icon: twitter; ratio: 2"></span>
-                </a>
-        
-                <a class="uk-link-text" href="https://www.instagram.com/bryan.devcode/" target="_blank" rel="noopener noreferrer">
-                    <span class="link instagram" uk-icon="icon: instagram; ratio: 2"></span>
-                </a>
-        
-                <a class="uk-link-text" href="https://github.com/BrayanCorpse" target="_blank" rel="noopener noreferrer">
-                    <span class="link github" uk-icon="icon: github; ratio: 2"></span>
-                </a>
-        
-                <a class="uk-link-text" href="https://www.linkedin.com/in/brayan-manzano-54b309129/" target="_blank" rel="noopener noreferrer">
-                    <span class="link linkedin" uk-icon="icon: linkedin; ratio: 2"></span>
-                </a>
-
-                <a class="uk-link-text" href="mailto:manzanocortesbrayan@gmail.com">
-                    <span class="link mail" uk-icon="icon: mail; ratio: 2"></span>
-                </a>
-
-                <h4 class="uk-h4 uk-text-capitalize">Developed with <i class="fa fa-heartbeat" aria-hidden="true"></i> by Brayan <br> Manzano. © 2021 </h4>
-
-            </div>
-    </div>   
-    
-</body>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
