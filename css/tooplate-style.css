@@ -424,22 +424,22 @@ b, strong {
   transition: all 0.4s ease;
 }
 .main-card .cards .b-card-one {
-  background-image: url(/images/project/byd.png);
+  background-image: url(../images/project/byd.png);
 }
 .main-card .cards .b-card-two {
-  background-image: url(/images/project/bisturi2.png);
+  background-image: url(../images/project/bisturi2.png);
 }
 .main-card .cards .b-card-three {
-  background-image: url(/images/project/gadus.png);
+  background-image: url(../images/project/gadus.png);
 }
 .main-card .cards .b-card-four {
-  background-image: url(/images/project/creep.png);
+  background-image: url(../images/project/creep.png);
 }
 .main-card .cards .b-card-five {
-  background-image: url(/images/project/p51.png);
+  background-image: url(../images/project/p51.png);
 }
 .main-card .cards .b-card-six {
-  background-image: url(/images/project/calculator.png);
+  background-image: url(../images/project/calculator.png);
 }
 .main-card .cards .card:hover {
   transform: translateY(-15px);
